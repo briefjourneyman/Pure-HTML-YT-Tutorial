@@ -176,7 +176,10 @@ button {
 
 .about-text {
   flex: 1;
+  max-width: 480px;     /* keeps paragraphs from stretching too far */
+  line-height: 1.8;     /* smoother readable text */
 }
+
 
 .about-text h2 {
   font-size: 2rem;
@@ -186,9 +189,10 @@ button {
 
 .about-text p {
   color: #333;
-  margin-bottom: 15px;
-  line-height: 1.7;
+  margin-bottom: 20px;   /* bigger breathing room */
+  line-height: 1.8;       /* matches the parent */
 }
+
 
 /* Button */
 .about-btn {
