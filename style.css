@@ -13,35 +13,41 @@ body {
 /* ===========================
    HEADER
    =========================== */
+
 header {
   background: #4c6ef5;
   color: white;
-  padding: 10px 0;   /* smaller height */
+  padding: 4px 0;          /* 🔥 ultra small height */
   text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* optional subtle shadow */
 }
 
 header nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;                /* space between links */
 }
 
 header nav a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 0.95rem;       /* slightly smaller text */
 }
 
-/* Reset default section styling */
-section {
-  padding: 0;
-  margin: 0;
-  background: none;
-  box-shadow: none;
-  border-radius: 0;
+
+
+header + section {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
+
 
 
 
