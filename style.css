@@ -132,16 +132,15 @@ button {
 .about-hero {
   background-image: url("kelli-tungay-2LJ4rqK2qfU-unsplash.jpg");
   background-size: cover;
-  background-position: center top;   /* 🔥 makes pencils appear */
+  background-position: center top;
   background-repeat: no-repeat;
 
-  min-height: 500px;      /* ⭐ REQUIRED — fixes everything */
+  min-height: 550px;
   padding: 160px 20px;
   text-align: center;
   color: white;
   position: relative;
 }
-
 
 /* overlay */
 .about-hero::before {
